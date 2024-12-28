@@ -1,0 +1,115 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container for the overall layout */
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Section for the form and uploader */
+  .form-section {
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* List section to hold the data */
+  .list-section {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
+  
+  /* Center the section titles */
+  h2, h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e88e5;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  /* Styling for the header and the title */
+  .App-header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .app-title {
+    background: linear-gradient(to right, #1e88e5, #42a5f5, #64b5f6); /* Gradient blue */
+    color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  
+  /* Styling for form input and buttons */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, button {
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #87ceeb;
+  }
+  
+  button {
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table Styling for List Section */
+  .list-section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .list-section th, .list-section td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .list-section th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .list-section td {
+    background-color: white;
+  }
+  
